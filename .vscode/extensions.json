@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "wix.vscode-import-cost",
+        "vscode-icons-team.vscode-icons",
+        "darkphoenix.split-mui-imports",
+        "dracula-theme.theme-dracula"
+    ]
+}
