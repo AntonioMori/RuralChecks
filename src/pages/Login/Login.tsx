@@ -223,7 +223,7 @@ const Login = () => {
 				},
 			}}
 		>
-			{({ signOut, user }) => (
+			{({ signOut, user }: { signOut?: () => void; user?: { username?: string; signInDetails?: { loginId?: string } } | null }) => (
 				<AuthenticatedContent user={user} signOut={signOut} />
 			)}
 		</Authenticator>

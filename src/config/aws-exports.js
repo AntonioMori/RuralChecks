@@ -1,11 +1,11 @@
-import { Amplify } from 'aws-amplify';
+  // import { Amplify } from 'aws-amplify';
 
-Amplify.configure({
-  API: {
-    GraphQL: {
-      endpoint: 'https://2umok2mglrdejaxw6uobw53rse.appsync-api.us-east-2.amazonaws.com/graphql',
-      region: 'us-east-2',
-      defaultAuthMode: 'iam',
-    }
-  }
-});
+  // Amplify.configure({
+  //   API: {
+  //     GraphQL: {
+  //       endpoint: 'https://2umok2mglrdejaxw6uobw53rse.appsync-api.us-east-2.amazonaws.com/graphql',
+  //       region: 'us-east-2',
+  //       defaultAuthMode: 'iam',
+  //     }
+  //   }
+  // });

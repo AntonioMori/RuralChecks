@@ -6,13 +6,9 @@ import { createTbPresenca, registrarPresencaQRCode, createTbUsuarios } from "../
 
 // Importe os tipos GERADOS automaticamente
 import type {
-	GetTbUsuariosQuery,
-	ListTbUsuariosQuery,
-	ListTbTurmasQuery,
-	CreateTbPresencaMutation,
 	TbUsuariosCargo,
 	CreateTbUsuariosInput,
-} from "../graphql/";
+} from "../graphql/ApiTypes";
 
 // Crie o client (Amplify já foi configurado no main.tsx)
 const client = generateClient();
