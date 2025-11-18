@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)",
+      "Bash(dir node_modules 2)",
+      "Bash(nul)",
+      "Bash(if exist \"node_modules\\.tmp\" rmdir /s /q \"node_modules\\.tmp\")",
+      "Bash(rm:*)",
+      "Bash(if exist \"node_modules\" rmdir /s /q \"node_modules\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

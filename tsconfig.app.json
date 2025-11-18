@@ -31,9 +31,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    // "erasableSyntaxOnly": true,  // Opção experimental que pode causar lentidão
+    "noFallthroughCasesInSwitch": true
+    // "noUncheckedSideEffectImports": true  // Opção experimental que pode causar lentidão
   },
   "include": [
     "src"
