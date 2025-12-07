@@ -3,9 +3,9 @@
 const config = {
 	Auth: {
 		Cognito: {
-			userPoolId: "us-east-2_zu5gNi4Ze",
-			userPoolClientId: "63b4p8q8562eft3u4t2t0qsvmg",
-			identityPoolId: "us-east-2:381c2ea6-7c76-45a5-bc33-fba6bfb349e0",
+			userPoolId: "us-east-2_H8tvB4EQI",
+			userPoolClientId: "5ifa9b4ojunr5bdlc3aav29q52",
+			identityPoolId: "us-east-2:642e1a9a-5ced-4d9c-a3e0-8daa374199ad",
 			loginWith: {
 				email: true,
 			},
@@ -13,7 +13,7 @@ const config = {
 	},
 	API: {
 		GraphQL: {
-			endpoint: "https://2umok2mglrdejaxw6uobw53rse.appsync-api.us-east-2.amazonaws.com/graphql",
+			endpoint: "https://bi7fxwljznex5hsgeqywydgh7i.appsync-api.us-east-2.amazonaws.com/graphql",
 			region: "us-east-2",
 			defaultAuthMode: "iam" as const,
 		},
